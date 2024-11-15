@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(13, 13, 30);
+    color: white;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(41, 41, 63);
+}
+
+nav ul {
+    display: ruby-text;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.04em;
+}
+
+.nav ul li a::after
+{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: rgb(232, 247, 242);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+.nav ul li a:hover::after
+{
+    width: 100%;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 180px 20px 0px 20px;
+    /* margin: 50px 0; */
+}
+
+.aniamtion {
+    color: rgb(183, 124, 238);
+}
+
+/* only first div get 30px  */
+.firstSection div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red;  */
+    font-size: 3rem;
+    margin: 30ox 0;
+
+}
+
+.button {
+    color: white;
+    background-color: rgb(69, 25, 69);
+    height: 40px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 18px;
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    /* background-color: red; */
+    box-shadow: 0px 0px 4px 4px rgba(234, 211, 211, 0.998);
+}
+
+.btn {
+    color: white;
+    background-color: rgb(69, 25, 69);
+    height: 40px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 18px;
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    /* background-color: red; */
+    box-shadow: 0px 0px 4px 4px rgba(234, 211, 211, 0.998);
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+
+.rightSection img {
+    width: 100%;
+    /* background-color: red;  */
+    /* margin: 50px 60px 50px 0px; */
+}
+
+.purple {
+    color: rgb(183, 124, 238);
+}
+
+#element {}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 40px 0px;
+    display: flex;
+}
+
+.secondsection .verticle {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 70px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #030325;
+    height: 133px;
+    
+}
+
+.footer {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+
+}
